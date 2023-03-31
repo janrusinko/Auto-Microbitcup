@@ -20,7 +20,6 @@ radio.onReceivedNumber(function (receivedNumber) {
         servos.P1.run(-100)
     }
 })
-basic.showString("Zapínanie")
 servos.P1.setRange(0, 360)
 servos.P2.setRange(0, 360)
 radio.setGroup(193)
